@@ -220,7 +220,7 @@ rule create_lastal_bams:
 		fai=reference_base + reference + ".fasta.fai"
 	shell:
 		"""
-		maf-convert psl {input[1]} |  ./snakemake4/bin/uncle_psl.py -f {input[0]} | samtools view -bt {params.fai} - | samtools sort -o {output[0]};
+		maf-convert psl {input[1]} | /home/miniconda3/envs/snakemake5/bin/uncle_psl.py -f {input[0]} | samtools view -bt {params.fai} - | samtools sort -o {output[0]};
         samtools index {output[0]};
 		"""
 
