@@ -31,3 +31,8 @@ The raw data goes to: "/data/raw/group/"
 
 The reference genome goes to: "/data/ref_genome/" and ndexes for the refrence genome needs to be created, see "/data/ref_genome/README.txt"
 
+Run the pipeline with:
+
+```
+snakemake -j 16 -p -s ./Snakefile_snakemake5 --config directory=group
+```
