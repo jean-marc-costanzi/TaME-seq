@@ -322,7 +322,7 @@ rule csv_edit3:
 
 ###create discordant reads table
 rule discordant_read_table:
-	input:q
+	input:
 		analyses_base + "hisat2_bam_files/{group}/{sample}.hisat2." + identifier + ".sorted.bam"
 
 	output:
