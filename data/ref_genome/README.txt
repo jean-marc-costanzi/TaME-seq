@@ -1,3 +1,4 @@
+Place the reference genome file in this folder.
 Several files needs to be created from the fasta reference genome file.
 
 Building indexes:
