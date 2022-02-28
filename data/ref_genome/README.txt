@@ -6,4 +6,4 @@ $ hisat2-build -p 16 genome.fasta genome
 $ samtools faidx genome.fasta
 
 Prepare lastal reference files:
-$ lastdb genome genome.fasta
+$ lastdb genome_lastaldb genome.fasta
