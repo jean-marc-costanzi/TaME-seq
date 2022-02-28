@@ -15,3 +15,7 @@ git clone https://github.com/sinanugur/TaME-seq.git
 cd TaME-seq
 
 ```
+
+Setting up
+------------
+/home/miniconda3/envs/snakemake5/bin/uncle_psl.py
