@@ -1,1 +1,0 @@
-/WORKING/gitrepos/mybiotools/bin/extract_from_FASTA.py
