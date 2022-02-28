@@ -18,4 +18,17 @@ cd TaME-seq
 
 Setting up
 ------------
-/home/miniconda3/envs/snakemake5/bin/uncle_psl.py
+Install the conda environnement:
+
+```
+conda env create -f envs/snakemake5.yml 
+
+```
+
+The correct location of uncle_psl.py needs to be edited in Snakefile_snakemake5 (default: "/home/miniconda3/envs/snakemake5/bin/uncle_psl.py").
+
+The raw data goes to: "/data/raw/group/"
+
+The reference genome goes to: "/data/ref_genome/"
+Indexes for the refrence genome needs to be created, see "/data/ref_genome/README.txt"
+
