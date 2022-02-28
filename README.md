@@ -27,7 +27,7 @@ The correct location of uncle_psl.py needs to be edited in Snakefile_snakemake5 
 
 The raw data goes to: "/data/raw/group/"
 
-The reference genome goes to: "/data/ref_genome/" and ndexes for the refrence genome needs to be created, see "/data/ref_genome/README.txt"
+The reference genome goes to: "/data/ref_genome/" and indexes for the refrence genome needs to be created, see "/data/ref_genome/README.txt"
 
 Run the pipeline with:
 
